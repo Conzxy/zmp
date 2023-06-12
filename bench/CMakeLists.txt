@@ -1,0 +1,2 @@
+add_executable(malloc_bench malloc_bench.cc)
+target_link_libraries(malloc_bench PRIVATE zmp PRIVATE benchmark PRIVATE benchmark_main)
